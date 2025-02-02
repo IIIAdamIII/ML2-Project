@@ -1,16 +1,6 @@
-# Ignore the virtual environment folder
-venv/
-
-# Ignore Python bytecode
-__pycache__/
-*.pyc
-*.pyo
-
-# Ignore system files
-.DS_Store
-Thumbs.db
 # Ignore large model files
 model/*.pth
 model/*.pkl
 
-
+# Ignore virtual environment
+venv/
