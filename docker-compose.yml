@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chatbot_container
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: production
+    # If you need volumes (optional), for dev only usually:
+    # volumes:
+    #   - .:/app
