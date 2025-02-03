@@ -9,15 +9,3 @@ The chatbot is developed using a combination of natural language processing tech
 pip install -r requirements.txt
 
 python api.py
-
-```
-
-
-
-
-
-
-
-
-
-```
